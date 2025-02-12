@@ -1,8 +1,15 @@
-import Capa from "../../assets/Tela Login/imagem tela de login.png";
+import {useNavigate} from "react-router-dom"
 import Logo from "../../assets/Tela Login/logo-ws.png";
 import styles from "./Loggin.module.scss";
 
 function Loggin() {
+
+const navigate = useNavigate()  //Iniciando o hook useNavigate
+
+const irParaReembolsos = () => {
+  navigate("/reembolsos")  //Redirecionando para a página de reembolsos
+}
+
   return (
     <main>
       <section className={styles.containerLogin}></section>
@@ -25,7 +32,7 @@ function Loggin() {
           <a href=""> Esqueci minha senha </a>
 
           <div className={styles.buttonGroup}>
-            <button> Entrar</button>
+            <button onClick={irParaReembolsos}> Entrar</button>
             <button>Criar conta</button>
           </div>
 

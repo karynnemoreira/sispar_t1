@@ -14,7 +14,7 @@ main {
 }
 
 .containerForm {
-  border: solid green;
+  //border: solid green;
   width: 35%;
   //flex:1;  ideia do Marcos, para preencher o campo que está vazio.
   display: flex;
@@ -22,16 +22,16 @@ main {
   justify-content: center;
   align-items: center;
 
-  h1{
-     border: solid rgb(26, 255, 0);
-     font-size: 2rem;
-     width: 15vw;
-     text-align: center;
+  h1 {
+    //border: solid rgb(26, 255, 0);
+    font-size: 2rem;
+    width: 15vw;
+    text-align: center;
   }
 
   form {
     height: 20vh;
-    border: solid blue;
+   // border: solid blue;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -46,7 +46,7 @@ main {
     .buttonGroup {
       width: 15vw;
       height: 4vh;
-      border: solid red;
+      //border: solid red;
       display: flex;
       justify-content: space-evenly;
       align-items: center;
