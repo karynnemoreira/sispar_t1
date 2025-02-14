@@ -32,7 +32,7 @@ const irParaReembolsos = () => {
           <a href=""> Esqueci minha senha </a>
 
           <div className={styles.buttonGroup}>
-            <button onClick={irParaReembolsos}> Entrar</button>
+          <button onClick={irParaReembolsos}> Entrar</button>
             <button>Criar conta</button>
           </div>
 

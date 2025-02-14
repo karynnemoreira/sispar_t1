@@ -1,0 +1,92 @@
+header {
+  border: solid red;
+  display: flex;
+  width: 10%;
+  height: 5vh;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.mainReembolsos {
+  height: 95vh;
+  border: solid blue;
+  
+}
+
+.containerCards {
+  width: 40vw;
+  height: 35vh;
+  border: solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+article {
+  border: solid;
+  width: 12vw;
+  height: 18vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerStatus {
+  width: 40vw;
+  height: 15vh;
+  border: solid green;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+div{
+    border: solid orange;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20%;
+    height: 5vh;
+}
+}
+
+.img1{
+background-color: #00BEDD;
+border-radius: 6px;
+padding: 6px;
+}
+
+.img2{
+background-color: #E56700;
+border-radius: 6px;
+padding: 6px;
+}
+
+.img3{
+background-color: #007A6A;
+border-radius: 6px;
+padding: 6px;
+}
+
+.img4{
+background-color: #A60B2F;
+border-radius: 6px;
+padding: 6px;
+}
+
+.containerSistema{
+    display: flex;
+    width: 9vw;
+    border: solid;
+    justify-content: space-between;
+
+}
+
+.centralizar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border:solid green;
+    padding-left: 30rem;
+}
