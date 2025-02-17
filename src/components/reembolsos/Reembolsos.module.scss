@@ -1,5 +1,10 @@
+.layout{
+  display: flex;
+}
+
+
 header {
-  border: solid red;
+ // border: solid red;
   display: flex;
   width: 10%;
   height: 5vh;
@@ -9,14 +14,14 @@ header {
 
 .mainReembolsos {
   height: 95vh;
-  border: solid blue;
+ // border: solid blue;
   
 }
 
 .containerCards {
   width: 40vw;
   height: 35vh;
-  border: solid red;
+ // border: solid red;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,13 +40,13 @@ article {
 .containerStatus {
   width: 40vw;
   height: 15vh;
-  border: solid green;
+ // border: solid green;
   display: flex;
   justify-content: space-around;
   align-items: center;
 
 div{
-    border: solid orange;
+ //   border: solid orange;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -77,7 +82,7 @@ padding: 6px;
 .containerSistema{
     display: flex;
     width: 9vw;
-    border: solid;
+   // border: solid;
     justify-content: space-between;
 
 }
@@ -87,6 +92,7 @@ padding: 6px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border:solid green;
-    padding-left: 30rem;
+    //align-items: flex-start;
+ //   border:solid green;
+   padding-left: 20rem;
 }
