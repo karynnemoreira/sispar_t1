@@ -140,6 +140,7 @@ function Solicitacao() {
           {/* Tr é a linha da tabela */}
           {/* Th cabeçalho da tabela, cada coluna receberá um th -  */}
           {/* tBody agrupa o corpo da tabela, ou seja, a parte principal onde armazena os dados */}
+          {/* Td representa uma célula onde cada dado é colocado */}
 
           <table>
             <thead>
