@@ -11,6 +11,13 @@
   width: 95%;
 }
 
+
+.mainSolicitacao{
+  display: flex;
+  flex-direction: column;
+}
+
+
 .formSolicitacao {
   display: flex;
   justify-content: space-between;
@@ -81,4 +88,64 @@ label {
 .grupo2{
     border: solid green;
     width: 65%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.inputData{
+  border: solid red;
+  width: 25%;
+}
+
+.despesa{
+  border: solid blue;
+  width: 30%;
+}
+
+.centroDeCusto{
+  border: solid green;
+  width: 40%;
+}
+
+
+.ordem, .divisoes, .pep, .distancia{
+border: solid purple;
+width: 9%;
+}
+
+.moeda, .valorKm, .valorFaturado, .despesa{
+  border: solid pink;
+  width: 12%;
+}
+.botoes{
+  border: solid red;
+  width: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+//Estilização da tabela
+
+table{ 
+  width: 100%;
+  border: solid;
+  border-collapse: collapse;
+
+  font-size: 1rem;
+}
+
+th{
+  background-color: #CBD4E1;
+  font-weight: 400;
+  color: #23282F;
+  font-size: 1rem;
+}
+
+table, th,td{
+  border: solid #000000 2px;
+  text-align: center;
 }
